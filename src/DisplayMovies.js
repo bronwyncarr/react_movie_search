@@ -1,9 +1,14 @@
-import React from "react";
+// import React from "react";
+import Movie from "./Movie";
 
-function DisplayMovies(props) {
-  return(
-    <h1>hello</h1>
-  )
+function DisplayMovies({ movies }) {
+  return (
+    <div className="main">
+      {movies.map((movie) => (
+        <Movie key={movie.id} movie={movie} />
+      ))}
+    </div>
+  );
 }
 
 export default DisplayMovies;
