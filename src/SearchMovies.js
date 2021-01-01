@@ -3,6 +3,7 @@ import React from "react";
 function SearchMovies({ query, handleSubmit, handleChange }) {
   return (
     <header>
+      <h1><i class="fas fa-film"></i> Movie Madness</h1>
       <form id="form" onSubmit={(e) => handleSubmit(e)}>
         <input
           onChange={(e) => handleChange(e.target.value)}
