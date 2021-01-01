@@ -1,4 +1,4 @@
-# Movie Madness
+#  🎬🍿 Movie Madness 🍿🎬
 
 ## ℹ About
 
