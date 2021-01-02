@@ -1,4 +1,5 @@
-import React from "react";
+// Searchbar for movie, state is set in Parent element, App.js
+// Query state is updated with keystroke and 'bubbles' up.
 
 function SearchMovies({ query, handleSubmit, handleChange }) {
   return (

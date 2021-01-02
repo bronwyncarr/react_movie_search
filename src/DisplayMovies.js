@@ -1,6 +1,6 @@
-// import React from "react";
 import Movie from "./Movie";
 
+// takes Movies array and maps over each movie to display each. 
 function DisplayMovies({ movies }) {
   return (
     <div className="main">

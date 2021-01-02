@@ -1,6 +1,5 @@
-import React from "react";
-
 function Movie({ movie }) {
+  // Controls what color the rating will be displayed in
   function getClassByRating() {
     if (movie.vote_average >= 8) {
       return "green";
